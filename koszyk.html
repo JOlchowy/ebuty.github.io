@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>eButy - Koszyk</title>
+    <link rel="stylesheet" href="css/koszyk-style.css" />
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo.jpg"/>
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="produkty.html">Produkty</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+    <div class="search-and-cart">
+        <input type="text" placeholder="Szukaj..." />
+        <a href="koszyk.html" class="cart-link">Koszyk</a>
+    </div>
+</header>
+
+<main>
+    <h1>Twój koszyk</h1>
+
+    <div class="cart-container" id="cart-container">
+    </div>
+
+    <div class="cart-summary" id="cart-summary">
+        <p>Liczba produktów: <span id="cart-count">0</span></p>
+        <p>Łączna kwota: <span id="cart-total">0.00</span> zł</p>
+        <button class="checkout-btn">Przejdź do płatności</button>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 eButy. Wszelkie prawa zastrzeżone.</p>
+    <p><a href="#">Regulamin</a> | <a href="#">Polityka prywatności</a></p>
+</footer>
+<script src="js/koszyk.js"></script>
+</body>
+</html>
